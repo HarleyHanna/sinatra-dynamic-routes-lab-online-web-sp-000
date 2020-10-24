@@ -19,7 +19,10 @@ class App < Sinatra::Base
     @empty = ""
     
     @num.times do
-      @empty << 
+      @empty << @phrase
+      @empty << "\n"
+    end
+    "#{@phrase}"
   end
   
   get '/say/:word1/:word2/:word3/:word4/:word5' do
