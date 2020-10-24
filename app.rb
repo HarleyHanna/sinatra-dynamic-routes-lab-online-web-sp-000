@@ -22,7 +22,7 @@ class App < Sinatra::Base
       @empty << @phrase
       @empty << "\n"
     end
-    "#{@phrase}"
+    "#{@empty}"
   end
   
   get '/say/:word1/:word2/:word3/:word4/:word5' do
