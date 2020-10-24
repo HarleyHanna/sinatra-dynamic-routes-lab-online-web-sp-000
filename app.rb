@@ -19,7 +19,7 @@ class App < Sinatra::Base
     @num2 = 0
     if @num2 != @num
       while @num2 != @num
-        "#{@phrase}"
+        "#{@phrase}\n"
         @num2 += 1
       end
     end
